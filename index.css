@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://www.bing.com/th?id=OHR.MehrangarhFortIndia_ROW0185434273_1920x1080.jpg&rf=LaDigue_1920x1080.jpg");
+}
+
+#slide {
+    width: 500px;
+    overflow: hidden;
+    margin: 10px auto;
+    width: 600px;
+    margin-top: 5%;
+    height: 333px;
+    box-shadow: 0 0 8px #000;
+    position: relative; }
+    
+    #slide img {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    margin-left: 20%;
+    margin-top: 10%;
+    left: 0; }
+    
+
+    .leter{
+        font-size: 30px;
+        color: seagreen;
+        margin-left: 30%;
+        margin-top: 2%;
+        cursor: pointer;
+    }
